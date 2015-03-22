@@ -10,10 +10,15 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
 The run_analysis.R program is executed to a get a clean data set and consists of the following steps: 
 
 1.Merge the train and test data into one dataset (UCI HAR Dataset/test & UCI HAR Dataset/train, respectively)
+
 2.Extracts onlt the measures on the mean and standard deviation for each measurement
+
 3.Uses descriptive activity names to name the activies.
+
 4.Label the data with descriptive variable names
+
 5.Create one tidy data set with the average of each variable for each activity and each subject.
+
 6.Save the new data set into the txt file named data_cleaned.txt
 
 Please refer to the code book for variable information, etc.
